@@ -3,9 +3,10 @@ import io from "socket.io-client";
 import "./App.css";
 import Chat from "./Chat";
 
-const socket = io.connect("https://test-node1-two.vercel.app");
+const socket = io.connect("https://test-node2.vercel.app/");
 
 function App() {
+  //dfd
   const [userName, setUserName] = useState("");
   const [room, setRoom] = useState("");
   const [showChat, setShowChat] = useState(false);
