@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import "./App.css";
 import Chat from "./Chat";
 
-const socket = io.connect("https://test-node2.vercel.app/");
+const socket = io.connect("https://test-node2.vercel.app:3001");
 
 function App() {
   //dfd
